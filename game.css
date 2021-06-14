@@ -1,0 +1,12 @@
+body{
+	text-align: center;
+}
+hr{
+  margin-bottom: 10px;
+  width:30%;
+  background-color: black;
+}
+a{
+	color:black;
+	text-decoration: none;
+}
