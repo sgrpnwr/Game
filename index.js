@@ -88,7 +88,7 @@ function restart(){
 
 function nextSequence(){
 
-	$(".start").text("Restart").css("font-size","28px");
+	$(".start").text("Restart").css("font-size","20px");
 	userClickedPattern =[];
 	level++;
 	$("h1").text("Level "+level);
