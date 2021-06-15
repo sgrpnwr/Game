@@ -11,8 +11,8 @@ if(!started){
 $("h1").text("Level "+level)
 nextSequence();
 started=true;
-
-// $(".start").text("Restart").css("font-size","28px");
+$(".start").text("Restart").css("font-size","20px");
+$(".rules").css("font-size","20px");
 
 }
 
