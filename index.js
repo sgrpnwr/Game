@@ -54,7 +54,6 @@ if(userClickedPattern[lastindex]===gamePattern[lastindex]){
 else{
 	$("h1").html("Game Over!<br>Press Restart<br><hr>Your score: "+level);
 	playsound("wrong");
-	setTimeout(playsound("amogh"),1000);
 	$("body").addClass("redscreen");
 	setTimeout(function(){
 	$("body").removeClass("redscreen");	
